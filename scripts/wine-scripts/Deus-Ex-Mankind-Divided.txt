@@ -1,0 +1,5 @@
+Installs on 64bit with no errors
+
+Will boot to start menu, but crashes when the game launches:
+Error: 00b4:err:d3dcompiler:compile_shader HLSL shader parsing failed.
+

@@ -1,0 +1,43 @@
+{
+    "files": [
+        {
+            "fusion_installer": "https://dl.appstreaming.autodesk.com/production/installers/Fusion%20360%20Admin%20Install.exe"
+        }
+    ],
+    "game": {
+        "arch": "win64",
+        "exe": "drive_c/users/Public/Desktop/Autodesk Fusion 360.lnk",
+        "prefix": "$GAMEDIR"
+    },
+    "installer": [
+        {
+            "extract": {
+                "description": "Extracting installer",
+                "dst": "$CACHE/fusion_installer/",
+                "extractor": "exe",
+                "file": "fusion_installer"
+            }
+        },
+        {
+            "task": {
+                "app": "atmlib gdiplus msxml3 msxml6 vcrun2017 ie8 corefonts fontsmooth=rgb winhttp win10",
+                "description": "Installing required Winetricks verbs",
+                "name": "winetricks",
+                "prefix": "$GAMEDIR"
+            }
+        },
+        {
+            "task": {
+                "args": "-p deploy -g -f log.txt --quiet",
+                "description": "Running the installer",
+                "executable": "$CACHE/fusion_installer/streamer.exe",
+                "name": "wineexec",
+                "prefix": "$GAMEDIR"
+            }
+        }
+    ],
+    "wine": {
+        "dxvk": true,
+        "esync": true
+    }
+}

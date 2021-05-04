@@ -1,0 +1,5 @@
+Install with 64-bit basic
+
+No Errors with install
+
+Works at 50-60fps on out of box settings.

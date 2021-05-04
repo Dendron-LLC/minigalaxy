@@ -1,0 +1,4 @@
+WINEARCH=win64 WINEPREFIX=~/Games/CivilizationIV-64-bit winetricks -q corefonts vcrun2005 dxvk win10
+
+Install Error: Ends with Error, but game works
+Performance: 60fps solid on high settings

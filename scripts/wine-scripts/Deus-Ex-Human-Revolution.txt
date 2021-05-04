@@ -1,0 +1,8 @@
+Basic 64-bit install
+
+No Errors on Install
+
+Works at up to 200fps immediatley 
+
+Note:
+Freezes when you leave the game

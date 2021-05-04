@@ -1,0 +1,2 @@
+Installs without errors on 64-bit basic.
+Tested with and without vcrun2019, but fails too boot

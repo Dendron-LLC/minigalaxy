@@ -1,0 +1,2 @@
+WINEARCH=win32 WINEPREFIX=~/Games/32-bit winetricks -q corefonts vcrun2005 dxvk win7
+WINEARCH=win32 WINEPREFIX=~/Games/32-bit wine msiexec /i wine-mono-6.0.0-x86.msi

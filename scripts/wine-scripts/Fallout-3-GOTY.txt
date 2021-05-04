@@ -1,0 +1,4 @@
+Use Basic 64 bit
+
+Problems:
+Seems to freeze at the cutscenes at the beginning 

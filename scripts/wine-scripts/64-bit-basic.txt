@@ -1,0 +1,4 @@
+WINEARCH=win64 WINEPREFIX=~/Games/64-bit winetricks -q corefonts vcrun2005 dxvk win10
+WINEARCH=win64 WINEPREFIX=~/Games/64-bit wine msiexec /i wine-mono-6.0.0-x86.msi
+
+
